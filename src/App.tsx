@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import photoProfile from '/photo.JPG'
 import { 
   Code, 
   Database, 
@@ -181,7 +180,7 @@ function App() {
               </h1>
               <p className="text-xl md:text-2xl text-blue-100 mb-4">Développeur Junior Passionné</p>
               <p className="text-lg text-blue-200 max-w-2xl mb-6">
-                Étudiant en informatique de 23 ans à l'Université de Dschang, spécialisé dans le développement web, 
+                Étudiant inscrit en informatique au cycle licence âge de 23 ans à l'Université de Dschang, spécialisé dans le développement web, 
                 desktop et jeux vidéo. Toujours prêt à relever de nouveaux défis technologiques !
               </p>
               
@@ -229,6 +228,12 @@ function App() {
                   <strong>Université de Dschang(UDs), Cameroun</strong><br />
                   Étudiant en Informatique<br />
                   <span className="text-blue-600 font-medium">23 ans • Promotion 2022</span>
+                </p>
+                <h3 className="text-xl font-semibold text-gray-700 mb-3">🎓 Formation Récente</h3>
+                <p className="text-gray-600">
+                  <strong>lycee bilingue de Zenmeh,Dchang-Cameroun</strong><br />
+                  Baccalaureat scientifique serie D<br />
+                  <span className="text-blue-600 font-medium">2021 - 2022</span>
                 </p>
               </div>
               
@@ -291,7 +296,7 @@ function App() {
             <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-2xl transition-all duration-300">
               <h3 className="text-2xl font-semibold text-blue-700 mb-2">Portfolio Personnel</h3>
               <p className="text-gray-600 mb-4">
-                Site web responsive présentant mon parcours, mes compétences et mes contacts réalisés avec React et Node.js.
+                Site web responsive présentant mon parcours, mes compétences et mes contacts réalisés avec react et node.js.
               </p>
               <a
                 href="https://github.com/francke15/mon-portfolio"
