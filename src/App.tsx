@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import photoProfile from './src/assets/images/photo.JPG'
+import photoProfile from '/photo.JPG'
 import { 
   Code, 
   Database, 
@@ -167,7 +167,7 @@ function App() {
               {/* Photo de profil - remplacez l'URL par votre photo */}
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shadow-2xl border-4 border-white/20 group hover:scale-105 transition-transform duration-300">
                 <img 
-                  src="./src/assets/images/photo.JPG"
+                  src="/photo.JPG"
                   alt="Tchatche Lowe Franck - Développeur Junior"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
